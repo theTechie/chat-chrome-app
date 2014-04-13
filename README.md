@@ -27,7 +27,7 @@ After Running:
 
 	- Browser : http://server-ip:port/ (default http://127.0.0.1:6789/)
 	- Chrome App : Load the packaged chrome app from build folder into chrome using extensions settings.
-	- 
+	
 
 We will be able to chat across machines (browser and chrome app) within a private network.
 
