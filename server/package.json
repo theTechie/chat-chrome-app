@@ -1,0 +1,32 @@
+{
+    "name": "chat-nodejs",
+    "version": "0.0.1",
+    "description": "node.js, socket.io and bootstrap based chat app",
+    "main": "server.js",
+    "dependencies": {
+        "express": "~4.0.0",
+        "socket.io": "~0.9.16",
+        "cors": "^2.2.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theTechie/chat-chrome-app"
+    },
+    "keywords": [
+        "chat",
+        "socket.io",
+        "express",
+        "nodejs"
+    ],
+    "author": "theTechie",
+    "license": ["MIT", "CC"],
+    "bugs": {
+        "url": "https://github.com/theTechie/chat-chrome-app/issues"
+    },
+    "homepage": "https://github.com/theTechie/chat-chrome-app"
+}

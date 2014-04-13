@@ -1,0 +1,29 @@
+{
+    "name": "chat-chrome-app",
+    "version": "0.0.1",
+    "authors": [
+        "theTechie <gagan.blr@gmail.com>"
+    ],
+    "description": "node.js, socket.io and bootstrap based chat app",
+    "main": "main.js",
+    "keywords": [
+        "chat",
+        "socket.io",
+        "bootstrap",
+        "responsive",
+        "chrome"
+    ],
+    "license": ["MIT", "CC"],
+    "homepage": "https://github.com/theTechie/chat-chrome-app",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.1.1"
+    }
+}
