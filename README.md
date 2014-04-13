@@ -22,11 +22,15 @@ Run Server:
   
 	$ node server.js
 	
+Build:
+
+	- Web App : no build required
+	- Chrome App : package the app using general packaging procedure (https://developer.chrome.com/extensions/packaging)
 	
-After Running:
+Usage:
 
 	- Browser : http://server-ip:port/ (default http://127.0.0.1:6789/)
-	- Chrome App : Load the packaged chrome app from build folder into chrome using extensions settings.
+	- Chrome App
 	
 
 We will be able to chat across machines (browser and chrome app) within a private network.
