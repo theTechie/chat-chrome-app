@@ -8,8 +8,8 @@ chrome.app.runtime.onLaunched.addListener(function() {
   // Center window on screen.
   var screenWidth = screen.availWidth;
   var screenHeight = screen.availHeight;
-  var width = 500;
-  var height = 400;
+  var width = 400;
+  var height = 500;
 
   chrome.app.window.create('index.html', {
     id: "chat-chrome-app",
