@@ -3,7 +3,7 @@ chat-chrome-app
 
 Simple chat application developed using Node.js, Socket.io and Bootstrap.
 
-### To setup code for Development:
+###Development:
 
 
 Install Dependencies:
