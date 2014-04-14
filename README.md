@@ -8,7 +8,10 @@ Simple chat application developed using Node.js, Socket.io and Bootstrap.
 
 Install Dependencies:
 
-  $ npm install && bower install
+  - Server :
+  	$ npm install 
+  - Client :
+   	$ bower install
   
 Configure:
 
