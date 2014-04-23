@@ -85,7 +85,7 @@
                     <div class="col-md-12">
                         <div class="cf chat-bottom">
                             <div class="chat-input">
-                                <input type="text" placeholder="...." />
+                                <input type="text" id="ta" placeholder="...." />
                             </div>
                         </div>
                     </div>
@@ -113,6 +113,11 @@
     <div class="avgrund-cover"></div>
 
     <script type="text/javascript">
+    
+        $(function() {
+            $("#ta").mbSmilesBox();
+        });
+    
         $('h1 sup').on('click', function() {
             if ($('.chat').hasClass('bounceOutRight')) {
                 $('.chat').removeClass('bounceOutRight');
