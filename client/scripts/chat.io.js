@@ -372,6 +372,8 @@
         // message
         if (isServer) {
             $html.find('.sender').css('color', serverDisplayColor);
+        }else{
+            $html = $html.emoticonize(true);
         }
         $html.appendTo('.chat-messages ul');
         $('.chat-messages').animate({
